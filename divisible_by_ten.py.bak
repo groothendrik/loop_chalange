@@ -1,0 +1,10 @@
+#Divisible by Ten
+#Write your function here
+
+def divisible_by_ten(nums):
+  for number in nums:
+    if len(number) % 10 == 0:
+      return number
+
+
+print(divisible_by_ten([20, 25, 30, 35, 40]))
